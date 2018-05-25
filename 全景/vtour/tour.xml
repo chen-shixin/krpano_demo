@@ -71,6 +71,8 @@
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
+		
+		jscall(alert('11'))
 	</action>
 
 
